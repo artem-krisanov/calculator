@@ -1,0 +1,62 @@
+#button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  width: 33vw;
+  height: 20vh;
+  font-size: 3em;
+  text-align: center;
+}
+
+#calculate {
+  color: yellow;
+  font-size: 1.5em;
+  text-align: right;
+  padding:5px;
+}
+
+#result {
+  color: white;
+  font-size: 2em;
+  text-align: right;
+  padding: 5px;
+}
+
+
+#display {
+  height: 100px;
+  width: auto;
+  background-color: black;
+  margin-bottom: 5px;
+  
+}
+
+.App {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+#button-container div {
+  height: 100px;
+  width: auto;
+  background-color: grey;
+  color:white;
+}
+
+#ac {
+  grid-area: 1/1/2/3;
+  background-color: red !important;
+}
+
+#equal {
+  grid-area: 4/4/6/5;
+  height: auto !important;
+  background-color: blue !important;
+}
+
+#zero {
+  grid-area: 5/1/6/3;
+}
